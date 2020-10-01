@@ -1,0 +1,20 @@
+body {
+    background-color: beige;
+}
+
+#main-container {
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 5px 5px 5px #888;
+    padding: 1em;
+}
+
+#userNameInput {
+    padding: .375rem .75rem;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+#aboutYouTextArea {
+    background-color: antiquewhite;
+}
