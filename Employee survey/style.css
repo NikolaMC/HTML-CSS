@@ -9,7 +9,7 @@ body {
     padding: 1em;
 }
 
-#userNameInput {
+#userNameInput, #aboutYouTextArea {
     padding: .375rem .75rem;
     border: 1px solid #ced4da;
     border-radius: .25rem;
