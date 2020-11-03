@@ -1,0 +1,104 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+.jumbotron, .main {
+    margin: auto;
+    width: 95%;
+}
+
+.navbar {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+body, .card {
+    background: #e9e9e9;
+}
+
+.jumbotron, .card, .card-button-container > a, .contact input, .contact textarea, .contact button {
+    box-shadow: 3px 3px 3px #888;
+}
+
+h1, h2, h3, h4 {
+    text-shadow: 2px 1px 1px #888;
+}
+
+.jumbotron {
+    background: #d8d7d7;
+}
+
+.navbar-nav .nav-link, .navbar-brand {
+  text-align: center;
+}
+
+.card-button-container {
+    width: 100%;
+}
+
+.contact {
+    margin: auto 0;
+}
+
+input:valid, textarea:valid {
+    border: 1px solid green;
+}
+
+input:invalid, textarea:invalid {
+    border: 1px solid red;
+}
+
+.gallery {
+    align-content: space-around;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.gallery > .card {
+    margin-bottom: 1rem;
+    max-width: 31%;
+}
+
+@media only screen and (max-width: 768px) {
+    .gallery > .card {
+        margin-bottom: 1rem;
+        max-width: 49%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .gallery > .card {
+        margin-bottom: 1rem;
+        max-width: 100%;
+    }
+}
+
+.footer {
+    background-color: #343A40;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: auto;
+    min-height: 100px;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+.footer > .container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.social-link {
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+.social-media-logo {
+    max-height: 30px;
+    max-width: 30px;
+}
